@@ -1,0 +1,159 @@
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    color:black;
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+div, p, form, input, a, span, button {
+    box-sizing: border-box;
+}
+p {
+    margin: 0;
+    line-height: 1.5em;
+}
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+ h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+ }
+h1 {
+    font-size: 23px;
+    margin-bottom: 17px;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation {
+    background:  #4c2deb;
+    color: #fff;
+    padding: 46px 0px 42px 0px;
+}
+.logo{
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+.menu {
+    display: flex;
+}
+.menu li {
+    margin-right: 14px;
+}
+.menu li a {
+    font-size: 15px;
+    color: #fff;
+}
+.time {
+    font-size: 12px;
+}
+.order {
+    background: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    color: #4c2deb;
+    text-decoration: none;
+    width: 154px;
+    display: block;
+    text-align: center;
+    padding: 10px 0px;
+}
+.offer{
+    background: #f1f1f2;
+}
+.intro {
+    font-style: 14px;
+    color: #828899;
+}
+.form {
+    margin-top: 30px;
+}
+.form input {
+    border: 1px solid #8693b6;
+    font-size: 13px;
+    width: 213px;
+    padding: 13px 18px;
+    background: transparent;
+    font-family: Tahoma, Arial, serif;
+    margin-bottom: 12px;
+}
+.send {
+    margin-top: 7px;
+    background: #4c2deb;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 17px 0px;
+    text-align: center;
+    width: 241px;
+    border: none;
+    font-family: Tahoma, Arial, serif;
+    cursor: pointer;
+}
+.prof {
+    width: 430px;
+}
+.elements {
+    background: #fff;
+    padding: 37px 41px 48px 42px;
+    width: 469px;
+    height: 358px;
+    box-shadow: 0px 0px 90px rgba(0,0,0,0.27);
+    margin: 80px 0px;
+}
+.h3 {
+    font-size: 16px;
+}
+.elements p {
+    font-size: 14px;
+    margin: 18px 0 28px 0;
+}
+.border {
+    width: 289px; 
+    height: 223px;
+    border: 1px solid #D6D6D6;
+    border-radius: 5px;
+}
+.shadow {
+    width: 289px; 
+    height: 223px;
+    border-radius: 5px;
+    box-shadow: 0 0 70px rgba(0,0,0,0.29);
+}
+.circle {
+    width: 234px; 
+    height: 234px;
+    border: 1px solid #D6D6D6;
+    border-radius: 50%;
+}
+.math {
+    display: flex;
+    justify-content: space-between;
+    padding: 85px 0 80px;
+}
+.footer {
+    background: #4c2deb;
+    color: #fff;
+}
+.details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: #c7c2df;
+    padding: 15px;
+}
